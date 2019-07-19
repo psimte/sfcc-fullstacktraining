@@ -1,128 +1,155 @@
 {
-	"personal": {
-		"tileTitle": "Personal Information",
-		"formName": "personalDetails",
-		"formAction": "/personalDetails",
-		"inputs": [{
-			"id": "userName",
-			"type": "text",
-			"placeholder": "Enter Full Name",
-			"value": "Sudipto Roy",
-			"label": "Name: ",
-			"name": "userName",
-			"editable": true,
-			"test": "/^[a-zA-Z ]{2,30}$/"
-		}, {
-			"id": "userDOB",
-			"type": "date",
-			"placeholder": "Date of Birth",
-			"value": "1992-12-31",
-			"label": "Date of Birth: ",
-			"name": "userAge",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "userGender",
-			"type": "text",
-			"placeholder": "Enter Gender",
-			"value": "Male",
-			"label": "Gender: ",
-			"name": "userGender",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "userEmail",
-			"type": "text",
-			"placeholder": "Enter Email",
-			"value": "sroy26@sapient.com",
-			"label": "Email: ",
-			"name": "userEmail",
-			"editable": false,
-			"test": "/\\S+@\\S+\\.\\S+/"
-		}]
-	},
-	"educational": {
-		"tileTitle": "Educational Information",
-		"formName": "educationalDetails",
-		"formAction": "/educationalDetails",
-		"inputs": [{
-			"id": "graduationCollege",
-			"type": "text",
-			"placeholder": "Enter College Name",
-			"value": "BIT Mesra",
-			"label": "Graduation College: ",
-			"name": "graduationCollege",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "graduationYear",
-			"type": "number",
-			"placeholder": "Year of Passing",
-			"value": "2012",
-			"label": "Graduation Year: ",
-			"name": "graduationYear",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "graduationCity",
-			"type": "text",
-			"placeholder": "Graduation City",
-			"value": "Ranchi",
-			"label": "Graduation City: ",
-			"name": "graduationCity",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "graduationSpecialization",
-			"type": "text",
-			"placeholder": "Graduation Specialization",
-			"value": "Electronics",
-			"label": "Specialization: ",
-			"name": "graduationSpecialization",
-			"editable": false,
-			"test": "/\\S+/"
-		}]
-	},
-	"experience": {
-		"tileTitle": "Experience Information",
-		"formName": "experienceDetails",
-		"formAction": "/experienceDetails",
-		"inputs": [{
-			"id": "yearsOfExperience",
-			"type": "number",
-			"placeholder": "Years of Experience",
-			"value": "2",
-			"label": "Years of Experience: ",
-			"name": "graduationCollege",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "skills",
-			"type": "text",
-			"placeholder": "Enter Skills",
-			"value": "FrontEnd",
-			"label": "Skills: ",
-			"name": "skills",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "currectCompany",
-			"type": "text",
-			"placeholder": "Currect Company",
-			"value": "Sapient",
-			"label": "Currect Company: ",
-			"name": "currectCompany",
-			"editable": true,
-			"test": "/\\S+/"
-		}, {
-			"id": "currectCTC",
-			"type": "text",
-			"placeholder": "Currect CTC",
-			"value": "Not Enough",
-			"label": "Currect CTC: ",
-			"name": "currectCTC",
-			"editable": false,
-			"test": "/\\S+/"
-		}]
-	}
+  "articles": [
+    {
+      "title": "What is Lorem Ipsum?",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "images": "[images/article1-large.jpg, images/article1-med.jpg, images/article1-sm.jpg]"
+    },
+    {
+      "title": "Why do we use it?",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "images": "[images/article2-large.jpg, images/article2-med.jpg, images/article2-sm.jpg]"
+    },
+    {
+      "title": "Where does it come from?",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32.",
+      "images": "[images/article3-large.jpg, images/article3-med.jpg, images/article3-sm.jpg]"
+    },
+    {
+      "title": "Where can I get some?",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "images": "[images/article4-large.jpg, images/article4-med.jpg, images/article4-sm.jpg]"
+    }
+  ],
+  "personal": {
+    "tileTitle": "Personal Information",
+    "formName": "personalDetails",
+    "formAction": "/personalDetails",
+    "inputs": [
+      {
+        "id": "userName",
+        "type": "text",
+        "placeholder": "Enter Full Name",
+        "value": "Lal Simte",
+        "label": "Name: ",
+        "name": "userName",
+        "editable": true,
+        "test": "/^[a-zA-Z ]{2,30}$/"
+      },
+      {
+        "id": "userDOB",
+        "type": "date",
+        "placeholder": "Date of Birth",
+        "value": "1999-01-01",
+        "label": "Date of Birth: ",
+        "name": "userAge",
+        "editable": true,
+        "test": "/\\S+/"
+      },
+      {
+        "id": "userGender",
+        "type": "text",
+        "placeholder": "Enter Gender",
+        "value": "Male",
+        "label": "Gender: ",
+        "name": "userGender",
+        "editable": true,
+        "test": "/\\S+/"
+      },
+      {
+        "id": "userEmail",
+        "type": "text",
+        "placeholder": "Enter Email",
+        "value": "sroy26@sapient.com",
+        "label": "Email: ",
+        "name": "userEmail",
+        "editable": false,
+        "test": "/\\S+@\\S+\\.\\S+/"
+      }
+    ]
+  },
+  "educational": {
+    "tileTitle": "Educational Information",
+    "formName": "educationalDetails",
+    "formAction": "/educationalDetails",
+    "inputs": [
+      {
+        "id": "graduationCollege",
+        "type": "text",
+        "placeholder": "Enter College Name",
+        "value": "NIT",
+        "label": "Graduation College: ",
+        "name": "graduationCollege",
+        "editable": true,
+        "test": "/\\S+/"
+      },
+      {
+        "id": "graduationYear",
+        "type": "number",
+        "placeholder": "Year of Passing",
+        "value": "2012",
+        "label": "Graduation Year: ",
+        "name": "graduationYear",
+        "editable": true,
+        "test": "/\\S+/"
+      },
+      {
+        "id": "graduationCity",
+        "type": "text",
+        "placeholder": "Graduation City",
+        "value": "Jalandhar",
+        "label": "Graduation City: ",
+        "name": "graduationCity",
+        "editable": true,
+        "test": "/\\S+/"
+      },
+      {
+        "id": "graduationSpecialization",
+        "type": "text",
+        "placeholder": "Graduation Specialization",
+        "value": "Electronics",
+        "label": "Specialization: ",
+        "name": "graduationSpecialization",
+        "editable": false,
+        "test": "/\\S+/"
+      }
+    ]
+  },
+  "experience": {
+    "tileTitle": "Experience Information",
+    "formName": "experienceDetails",
+    "formAction": "/experienceDetails",
+    "inputs": [
+      {
+        "id": "yearsOfExperience",
+        "type": "number",
+        "placeholder": "Years of Experience",
+        "value": "2",
+        "label": "Years of Experience: ",
+        "name": "graduationCollege",
+        "editable": true,
+        "test": "/\\S+/"
+      },
+      {
+        "id": "skills",
+        "type": "text",
+        "placeholder": "Enter Skills",
+        "value": "FrontEnd",
+        "label": "Skills: ",
+        "name": "skills",
+        "editable": true,
+        "test": "/\\S+/"
+      },
+      {
+        "id": "currectCompany",
+        "type": "text",
+        "placeholder": "Currect Company",
+        "value": "Sapient",
+        "label": "Currect Company: ",
+        "name": "currectCompany",
+        "editable": true,
+        "test": "/\\S+/"
+      }
+    ]
+  }
 }
