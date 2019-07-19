@@ -7,11 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
      <style>
-      body{background:#4f5051}
-      .design{margin:0 auto}
+      body{background:#4f5051;margin:0; text-align:center}
+      .desktop-design{display:none}
+      .mobile-design{display:block}
+      @media only screen and (min-width: 800px) {
+       desktop-design{display:block}
+       mobile-design{display:none}
+       }
      </style>
     </head>
     <body>
-      <img class="design" src="SFCC-fullstack-desktop-CSS.jpg" alt="" />
+      <img class="desktop-design" src="SFCC-fullstack-desktop-CSS.jpg" alt="" />
     </body>
 </html>
